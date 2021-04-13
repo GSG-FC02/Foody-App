@@ -120,42 +120,42 @@ input {
   height: 130px;
   width: 130px;
   border-radius: 10px;
-  background: url(../assets/america.jpg) no-repeat;
+  background: url(../Assets/america.jpg) no-repeat;
   background-size: 100%;
   display: flex;
   align-items: flex-end;
 }
 
 .amr {
-  background: url(../assets/america.jpg);
+  background: url(../Assets/america.jpg);
   background-size: 100%;
 }
 .brt {
-  background: url(../assets/British.jpg);
+  background: url(../Assets/British.jpg);
   background-size: 100%;
 }
 .frn {
-  background: url(../assets/French.jpg);
+  background: url(../Assets/French.jpg);
   background-size: 100%;
 }
 .egy {
-  background: url(../assets/egypt.jpg);
+  background: url(../Assets/egypt.jpg);
   background-size: 100%;
 }
 .chn {
-  background: url(../assets/Chinese.jpg);
+  background: url(../Assets/Chinese.jpg);
   background-size: 100%;
 }
 .ind {
-  background: url(../assets/Indian.jpg);
+  background: url(../Assets/Indian.jpg);
   background-size: 100%;
 }
 .itl {
-  background: url(../assets/Italian.jpg);
+  background: url(../Assets/Italian.jpg);
   background-size: 100%;
 }
 .mls {
-  background: url(../assets/Malaysian.jpg);
+  background: url(../Assets/Malaysian.jpg);
   background-size: 100%;
 }
 
