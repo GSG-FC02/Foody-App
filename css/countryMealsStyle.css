@@ -1,0 +1,422 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Cairo:400,700,600|Nunito:300");
+.x03-country-meals {
+  align-items: flex-start;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  overflow: hidden;
+  width: 375px;
+}
+.x03-country-meals .broad-beans {
+  letter-spacing: 0px;
+  margin-left: 10px;
+  margin-top: 16px;
+  min-height: 21px;
+  width: 100px;
+}
+.x03-country-meals .chicken-thighs {
+  left: 10px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 158px;
+  width: 114px;
+}
+.x03-country-meals .clock {
+  align-items: flex-start;
+  display: flex;
+  height: 14px;
+  padding: 0.6px;
+  width: 14px;
+}
+.x03-country-meals .date {
+  letter-spacing: 0px;
+  line-height: 20px;
+  margin-left: 5px;
+  min-height: 20px;
+  min-width: 46px;
+  white-space: nowrap;
+}
+.x03-country-meals .ellipse-13 {
+  height: 564px;
+  left: 120px;
+  position: absolute;
+  top: 109px;
+  transform: rotate(129.52deg);
+  width: 548px;
+}
+.x03-country-meals .ellipse-13-1 {
+  height: 500px;
+  left: 83px;
+  position: absolute;
+  top: 95px;
+  transform: rotate(-25.68deg);
+  width: 554px;
+}
+.x03-country-meals .ellipse-14 {
+  height: 564px;
+  left: 119px;
+  position: absolute;
+  top: 127px;
+  transform: rotate(129.52deg);
+  width: 548px;
+}
+.x03-country-meals .ellipse-14-1 {
+  height: 499px;
+  left: 82px;
+  position: absolute;
+  top: 114px;
+  transform: rotate(-25.68deg);
+  width: 555px;
+}
+.x03-country-meals .ellipse-15 {
+  height: 500px;
+  left: 81px;
+  position: absolute;
+  top: 137px;
+  transform: rotate(-25.68deg);
+  width: 554px;
+}
+.x03-country-meals .ellipse-15-1 {
+  height: 564px;
+  left: 118px;
+  position: absolute;
+  top: 151px;
+  transform: rotate(129.52deg);
+  width: 548px;
+}
+.x03-country-meals .frame-2 {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  margin-left: 11px;
+  margin-top: 36px;
+  min-width: 70px;
+}
+.x03-country-meals .frame-3 {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  left: 11px;
+  min-width: 70px;
+  position: absolute;
+  top: 232px;
+}
+.x03-country-meals .frame-4 {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  margin-left: 2px;
+  margin-top: 56px;
+  min-width: 70px;
+}
+.x03-country-meals .frame-6 {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 54px;
+  min-width: 70px;
+}
+.x03-country-meals .img-1 {
+  align-self: center;
+  height: 100px;
+  object-fit: cover;
+  width: 140px;
+}
+.x03-country-meals .group-6794 {
+  align-items: flex-start;
+  display: flex;
+  height: 365px;
+  margin-left: -83.83px;
+  margin-top: 4px;
+  min-width: 456px;
+  transform: rotate(25.68deg);
+}
+.x03-country-meals .group-6795 {
+  align-items: flex-start;
+  display: flex;
+  height: 377px;
+  justify-content: flex-end;
+  left: 62px;
+  min-width: 456px;
+  position: absolute;
+  top: 107px;
+  transform: rotate(-129.52deg);
+}
+.x03-country-meals .icon {
+  height: 41px;
+  left: 0px;
+  position: absolute;
+  top: 414px;
+  width: 58px;
+}
+.x03-country-meals .img-2 {
+  height: 100px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 17px;
+  width: 140px;
+}
+.x03-country-meals .koshari {
+  letter-spacing: 0px;
+  margin-left: 2px;
+  margin-top: 4px;
+  min-height: 25px;
+  width: 103px;
+}
+.x03-country-meals .img-4 {
+  align-self: center;
+  height: 100px;
+  object-fit: cover;
+  width: 140px;
+}
+.x03-country-meals .overlap-group {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/606f0e9508400d11b652fa89/releases/606f11550aea9af0b0b26407/img/rectangle-16@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  left: 19px;
+  min-height: 270px;
+  padding: 17px 9px;
+  position: absolute;
+  top: 804px;
+  width: 160px;
+}
+.x03-country-meals .overlap-group1 {
+  height: 270px;
+  left: 199px;
+  position: absolute;
+  top: 539px;
+  width: 160px;
+}
+.x03-country-meals .overlap-group2 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/606f0e9508400d11b652fa89/releases/606f11550aea9af0b0b26407/img/rectangle-16@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  left: 199px;
+  min-height: 270px;
+  padding: 18px 0;
+  position: absolute;
+  top: 832px;
+  width: 160px;
+}
+.x03-country-meals .overlap-group3 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/606f0e9508400d11b652fa89/releases/606f11550aea9af0b0b26407/img/rectangle-16@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  left: 19px;
+  min-height: 270px;
+  padding: 14px 0;
+  position: absolute;
+  top: 511px;
+  width: 160px;
+}
+.x03-country-meals .overlap-group4 {
+  height: 592px;
+  left: 111px;
+  position: absolute;
+  top: 0px;
+  width: 581px;
+}
+.x03-country-meals .overlap-group5 {
+  height: 823px;
+  margin-top: -320px;
+  position: relative;
+  width: 785px;
+  margin-right: -65px;
+}
+.x03-country-meals .overlap-group6 {
+  height: 732px;
+  margin-left: 10px;
+  margin-top: 150.26px;
+  position: relative;
+  width: 718px;
+}
+.x03-country-meals .overlap-group7 {
+  height: 1102px;
+  margin-left: -1px;
+  margin-top: -369px;
+  position: relative;
+  width: 692px;
+}
+.x03-country-meals .rectangle-17 {
+  height: 270px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 160px;
+}
+.x03-country-meals .shakshuka {
+  letter-spacing: 0px;
+  margin-left: 10px;
+  margin-top: 5px;
+  min-height: 21px;
+  width: 99px;
+}
+.x03-country-meals .shawarma {
+  left: 10px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 124px;
+  width: 97px;
+}
+.x03-country-meals .surname {
+  letter-spacing: 0px;
+  margin-left: 2px;
+  margin-top: 5px;
+  min-height: 24px;
+  width: 123px;
+}
+.x03-country-meals .tamiya {
+  letter-spacing: 0px;
+  margin-left: 10px;
+  margin-top: 5px;
+  min-height: 18px;
+  width: 102px;
+}
+.x03-country-meals .text-1 {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-right: 4px;
+  margin-top: 12px;
+  min-height: 44px;
+  width: 136px;
+}
+.x03-country-meals .title {
+  left: 15px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 423px;
+  width: 205px;
+}
+.x03-country-meals .vector {
+  height: 12px;
+  width: 12px;
+}
+.x03-country-meals .img-3 {
+  align-self: flex-end;
+  height: 100px;
+  object-fit: cover;
+  width: 140px;
+}
+* {
+  box-sizing: border-box;
+}
+.cairo-bold-spectra-30px {
+  color: var(--spectra);
+  font-family: "Cairo", Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+.cairo-semi-bold-mist-gray-14px {
+  color: var(--mist-gray);
+  font-family: "Cairo", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.cairo-semi-bold-spectra-17px {
+  color: var(--spectra);
+  font-family: "Cairo", Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+.nunito-light-spectra-14px {
+  color: var(--spectra);
+  font-family: "Nunito", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+:root {
+  --mist-gray: rgba(196, 196, 196, 1);
+  --spectra: rgba(47, 84, 92, 1);
+}
+
+ @media only screen and (max-width: 768px)and (min-width: 400px)  {
+  .x03-country-meals {
+    height: 1024px;
+    width: 768px;
+}
+.x03-country-meals .overlap-group4{
+  left: 345px;
+ }
+.x03-country-meals .group-6795{
+  left: 120px;
+}
+.x03-country-meals .overlap-group1{
+  left: 445px;
+  top: 550px;
+}
+.x03-country-meals .overlap-group3{
+  left: 195px;
+  top: 525px;
+}
+.x03-country-meals .overlap-group2{
+  left: 445px;
+  top: 895px;
+}
+.x03-country-meals .overlap-group{
+  left: 195px;
+  top: 845px;
+}
+.x03-country-meals .group-6794{
+  height: 390px;
+  transform: rotate(
+    50.68deg
+    );
+  margin-left: -97.83px;
+}
+} 
+
+@media only screen and (max-width: 1440px) and (min-width: 800px) {
+.x03-country-meals{
+  height: 900px;
+  width: 1440px;
+}
+.x03-country-meals .overlap-group4{
+  left: 605px;
+}
+.x03-country-meals .group-6795{
+  left: 505px;
+}
+.x03-country-meals .overlap-group1{
+  left: 495px;
+  top: 585px;
+}
+.x03-country-meals .overlap-group3{
+  left: 255px;
+  top: 565px;
+}
+.x03-country-meals .overlap-group2{
+  left: 1020px;
+  top: 585px;
+}
+.x03-country-meals .overlap-group{
+  left: 755px;
+  top: 565px;
+}
+.x03-country-meals .group-6794{
+  height: 405px;
+  margin-left: -60.83px;
+  transform: rotate(
+45.68deg
+);
+}
+.x03-country-meals .icon{
+  width: 90px;
+  left: 50px;
+}
+}
+
+
