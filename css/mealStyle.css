@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: white;
+  width: auto;
+}
+
+/*  ______  We In The Forth Page ** meal **  ______  */
+
+.img1-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img1-2 .ellipse6 {
+  height: 40px;
+}
+.img1-2 .group6796 {
+  height: 10px;
+}
+.forth_header .header_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 0 20% 0;
+  color: #2f545c;
+  font-size: 30px;
+  font-weight: bold;
+}
+#back_icon {
+  color: red;
+  font-size: 25px;
+  margin-top: 5px;
+}
+#shawarma {
+  margin-right: 15%;
+}
+.picture {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.picture > .meal_img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.forth_article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 20%;
+}
+.img3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.meal_ingredients,
+.meal_measure {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.img4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.meal_ingredients > p,
+.meal_measure > p,
+.recipe > p {
+  color: #2f545c;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.meal_ingredients ol {
+  margin-left: 25px;
+}
+.meal_measure ul {
+  list-style-type: none;
+  margin-left: 25px;
+}
+.recipe_steps {
+  display: flex;
+  flex-direction: row;
+}
+.recipe {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-bottom: 20%;
+}
+.recipe > p {
+  margin: 0 0 10% 10%;
+}
+.recipe ol {
+  margin: 0 10px 0 30px;
+}
+.img5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50px;
+}
+.iframe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.iframe_video {
+  width: 85%;
+  height: auto;
+}
+.forth_footer {
+  display: flex;
+  justify-content: center;
+  color: #d6424d;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15%;
+}
+.img6 {
+  margin-bottom: 0;
+}
+/* Resposive design for other screens */
+@media screen and (min-width: 375px) {
+  .picture > .meal_img {
+    max-height: 275px;
+    height: 275px;
+  }
+  #cayenne_pepper {
+    margin-bottom: 30px;
+  }
+  .iframe_video {
+    max-height: 250px;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 375px) {
+  #cayenne_pepper {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .picture > .meal_img {
+    max-height: 500px;
+    height: 500px;
+  }
+  #cayenne_pepper {
+    margin-bottom: 0px;
+  }
+  .iframe_video {
+    max-height: 4800px;
+    height: 480px;
+  }
+  .forth_footer > p {
+    font-size: 36px;
+  }
+  #back_icon {
+    font-size: 34px;
+  }
+  .forth_article,
+  .recipe {
+    font-size: 20px;
+  }
+  .recipe {
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .picture > .meal_img {
+    height: 640px;
+  }
+  .iframe_video {
+    height: 585px;
+  }
+  #cayenne_pepper {
+    margin-bottom: 0px;
+  }
+  .meal_ingredients > p,
+  .meal_measure > p,
+  .recipe > p {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  #shawarma,
+  .forth_footer > p {
+    font-size: 36px;
+  }
+  #back_icon {
+    font-size: 34px;
+  }
+  .picture > .meal_img {
+    width: 950px;
+    max-height: 600px;
+    height: 600px;
+  }
+  .meal_ingredients > p,
+  .meal_measure > p {
+    margin-top: 70px;
+  }
+  #cayenne_pepper {
+    margin-bottom: 0px;
+  }
+  .meal_ingredients > p,
+  .meal_measure > p,
+  .recipe > p {
+    font-size: 30px;
+  }
+  .recipe > p {
+    margin: 0 0 30px 30px;
+  }
+  .forth_article,
+  .recipe {
+    font-size: 20px;
+  }
+  .recipe {
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+  .iframe_video {
+    max-height: 730px;
+    height: 730px;
+  }
+}
