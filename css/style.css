@@ -1,0 +1,378 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.Content {
+height: auto;
+overflow: hidden;
+position: relative;
+width: auto ;
+}
+.shape11{
+position: absolute;
+top: 50px;
+left: 365px;
+}
+.shape22{
+position: absolute;
+top: 250px;
+left: 665px;
+}
+.shape33{
+position: absolute;
+top: 0;
+left: 865px;
+}
+.shape44{
+position: absolute;
+top: 389px;
+left: 0px;
+}
+.Content .logo {
+left: 320px;
+position: absolute;
+bottom: 90px;
+height: 0px;
+width: 0px;
+}
+.Content .group-1 {
+align-items: center;
+display: flex;
+flex-direction: column;
+left: 115px;
+min-height: 90px;
+position: absolute;
+top: 36px;
+width: 204px;
+}
+.Content .overlap-group {
+height: 838px;
+left: -22px;
+position: absolute;
+top: -7px;
+width: 420px;
+}
+
+.Content .overlap-group2 {
+height: 60px;
+margin-right: 8px;
+margin-top: 23px;
+position: relative;
+width: 196px;
+}
+
+.Content .photo {
+height: 200px;
+left: 360px;
+position: absolute;
+top: 80px;
+width: 250px;
+border-radius: 5px;
+}
+.Content .button {
+background-color: var(--shiraz);
+border-radius: 30px;
+height: 48px;
+left: 340px;
+position: absolute;
+top: 350px;
+width: 282px;
+color: rgb(245, 245, 245);
+}
+.Content .background {
+height: 441px;
+left: 0px;
+top: 0px;
+width: 1000px;
+}
+.Content .term {
+height: 68px;
+left: 400px;
+position: absolute;
+top: 300px;
+width: 220px;
+color: #5C0303;
+}
+.Content .term2 {
+height: 68px;
+left: 450px;
+position: absolute;
+top: 320px;
+width: 220px;
+}
+.alike-regular-normal-black-48px {
+color: black;
+font-family: "Alike-Regular", Helvetica;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+}
+.alike-regular-normal-white-48px {
+color: transparent;
+font-family: "Alike-Regular", Helvetica;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+}
+.cairo-regular-normal-white-24px {
+color: white;
+font-family: "Cairo-Regular", Helvetica;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+}
+:root {
+--shiraz: rgba(163, 13, 59, 1);
+} 
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .Content {
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        width: auto ;
+        }
+        .shape11{
+        position: absolute;
+        top: 95px;
+        left: 100px;
+        }
+        .shape22{
+        position: absolute;
+        top: 500px;
+        left: 350px;
+        }
+        .shape33{
+        position: absolute;
+        top: 0;
+        left: 340px;
+        width: 60px;
+        }
+        .shape44{
+        position: absolute;
+        top: 765px;
+        left: 0px;
+        }
+        .Content .logo {
+        left: 55px;
+        position: absolute;
+        bottom: 70px;
+        top: 10px;
+        }
+        .Content .photo {
+        height: 360px;
+        left: 50px;
+        position: absolute;
+        top: 150px;
+        width: 350px;
+        border-radius: 5px;
+        }
+        .Content .button {
+        background-color: var(--shiraz);
+        border-radius: 30px;
+        height: 48px;
+        left: 70px;
+        position: absolute;
+        top: 690px;
+        width: 282px;
+        color: rgb(245, 245, 245);
+        }
+        .Content .background {
+        height: 820px;
+        left: 0px;
+        top: 0px;
+        width: 1000px;
+        }
+        .Content .term {
+        height: 68px;
+        left: 70px;
+        position: absolute;
+        top: 550px;
+        width: 320px;
+        color: #5C0303;
+        font-size: 30px;
+        }
+        .Content .term2 {
+        height: 68px;
+        left: 160px;
+        position: absolute;
+        top: 600px;
+        width: 220px;
+        font-size: 30px;
+        }
+}
+
+
+ @media only screen and (min-width: 768px) {
+
+  
+   
+    .Content {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto ;
+    }
+    .shape11{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    }
+    .shape22{
+    position: absolute;
+    top: 330px;
+    left: 600px;
+    } 
+    .shape33{
+        position: absolute;
+        top: 0;
+        left: 730px;
+        width: 60px;
+    }
+    .shape44{
+    position: absolute;
+    top: 490px;
+    left: 0px;
+    }   
+            
+    .Content .logo {
+    left: 250px;
+    position: absolute;
+    top: 0px;
+    }
+           
+    .Content .photo {
+    height: 250px;
+    left: 250px;
+    position: absolute;
+    top: 100px;
+    width: 350px;
+    border-radius: 5px;
+    }
+            
+    .Content .button {
+    background-color: var(--shiraz);
+    border-radius: 30px;
+    height: 48px;
+    left: 260px;
+    position: absolute;
+    top: 430px;
+    width: 282px;
+    color: rgb(245, 245, 245);
+    }
+    .Content .background {
+        height: 539px;
+        left: 0px;
+        top: 0px;
+        width: 800px;
+    }
+    .Content .term {
+    height: 68px;
+    left: 260px;
+    position: absolute;
+    top: 350px;
+    width: 320px;
+    color: #5C0303;
+    font-size: 30px;
+    }
+    .Content .term2 {
+    height: 68px;
+    left: 350px;
+    position: absolute;
+    top: 380px;
+    width: 220px;
+    font-size: 30px;
+    } 
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .Content {
+            height: auto;
+            overflow: hidden;
+            position: relative;
+            width: auto ;
+            }
+            .shape11{
+            position: absolute;
+            top: 95px;
+            left: 400px;
+            }
+            .shape22{
+            position: absolute;
+            top: 400px;
+            left: 900px;
+            }
+            .shape33{
+            position: absolute;
+            top: 0;
+            left: 1315px;
+            width: 100px;
+            }
+            .shape44{
+            position: absolute;
+            top: 580px;
+            left: 0px;
+            }
+            .Content .logo {
+            left: 500px;
+            position: absolute;
+            /* bottom: 70px; */
+            top: 0px;
+            }
+            .Content .photo {
+            height: 360px;
+            left: 500px;
+            position: absolute;
+            top: 70px;
+            width: 350px;
+            border-radius: 5px;
+            }
+            .Content .button {
+            background-color: var(--shiraz);
+            border-radius: 30px;
+            height: 48px;
+            left: 500px;
+            position: absolute;
+            top: 550px;
+            width: 282px;
+            color: rgb(245, 245, 245);
+            }
+            .Content .background {
+            height: 625px;
+            left: 0px;
+            top: 0px;
+            width: 1370px;
+            }
+            .Content .term {
+            height: 68px;
+            left: 520px;
+            position: absolute;
+            top: 450px;
+            width: 320px;
+            color: #5C0303;
+            font-size: 30px;
+            }
+            .Content .term2 {
+            height: 68px;
+            left: 600px;
+            position: absolute;
+            top: 500px;
+            width: 220px;
+            font-size: 30px;
+            }
+
+    }
+
+
+ 
+
+
+
+
