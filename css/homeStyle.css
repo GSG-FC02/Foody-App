@@ -101,76 +101,34 @@ input {
   font-weight: 600;
   margin-left: 15px;
 }
-
-.kitchens {
-  margin-top: 5px;
+#root{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.kitchens a {
-  cursor: pointer;
-  text-decoration: none;
-  margin: 15px;
+.kitchens {
+margin: 1rem;
 }
 
 .kitchen {
   height: 130px;
   width: 130px;
   border-radius: 10px;
-  background: url(../Assets/america.jpg) no-repeat;
-  background-size: 100%;
-  display: flex;
-  align-items: flex-end;
-}
-
-.amr {
-  background: url(../Assets/america.jpg);
-  background-size: 100%;
-}
-.brt {
-  background: url(../Assets/British.jpg);
-  background-size: 100%;
-}
-.frn {
-  background: url(../Assets/French.jpg);
-  background-size: 100%;
-}
-.egy {
-  background: url(../Assets/egypt.jpg);
-  background-size: 100%;
-}
-.chn {
-  background: url(../Assets/Chinese.jpg);
-  background-size: 100%;
-}
-.ind {
-  background: url(../Assets/Indian.jpg);
-  background-size: 100%;
-}
-.itl {
-  background: url(../Assets/Italian.jpg);
-  background-size: 100%;
-}
-.mls {
-  background: url(../Assets/Malaysian.jpg);
   background-size: 100%;
 }
 
 .kitchenName {
   background-color: #d6424d;
   color: #e9e1e2;
-  width: 100%;
+   width: 100%; 
   border-radius: 0 0 10px 10px;
   padding: 3px 13px;
   font-size: 16px;
   font-weight: 600;
+  margin-top: -9px;
 }
 
 .kitchenName:hover {
-  height: 100%;
   border-radius: 10px;
   opacity: 0.9;
   padding-top: 10px;
