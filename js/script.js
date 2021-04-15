@@ -17,5 +17,9 @@ fetch('../js/country.json')
           card.appendChild(text);
           kitchenArea.appendChild(card);
 
+          // function to store area name in local storge
+          card.addEventListener('click', function(){
+            window.localStorage.setItem('an', area.strArea);
+          });
       })
     });
