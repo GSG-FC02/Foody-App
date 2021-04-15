@@ -14,7 +14,7 @@ function viweArea(){
 
 }
 function viewMeals(){
-    let meals = document.getElementById("meals");
+    let meals2 = document.getElementById("meals");
 
     
 
@@ -24,24 +24,28 @@ function viewMeals(){
         return response.json();      
     })    
     .then(data => {
-
-        let html = "";
-        html += `
-        <a href="./meal.html">
-        <div class = "meal">
-          <img src="${data.strMealThumb}" alt="">
-          <h3>${data.strMeal}</h3>
-          <h4>${data.strCategory}</h4>
-          <p></p>
-      
-        </div>
-      </a>
-        `
-        meals.innerHTML += html;
+        data.array.forEach(meals => {
+            
+            let html = "";
+            html += `
+            <a href="./meal.html">
+                <div class = "meal">
+                <img src="${meals.strMealThumb}" alt="">
+                <h3>${meals.strMeal}</h3>
+                <h4>${meals.strCategory}</h4>        
+                </div>
+            </a>
+            `
+            meals2.innerHTML += html;
         
         // mealImage.src = data.strMealThumb;
         // mealName.textContent = data.strMeal;
         // mealCategory.textContent = data.strCategory;
+
+
+
+        });
+        
 
     })
     .catch(error => { console.log('Something went wrong', error);
