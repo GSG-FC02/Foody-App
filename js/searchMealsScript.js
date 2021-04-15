@@ -10,6 +10,5 @@ console.log(mealName);
 localStorage.setItem('storeValue', mealName);
 
   
-
 }
 
