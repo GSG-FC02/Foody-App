@@ -32,7 +32,7 @@ z-index: -10;
   align-items: center;
 }
 
-button {
+#header a {
   border: none;
   outline: none;
   background: none;
@@ -60,7 +60,7 @@ h1{
   align-items: flex-end;
 }
 
-a {
+#meals a {
   text-decoration: none;
   color: inherit;
   margin: 10px;
