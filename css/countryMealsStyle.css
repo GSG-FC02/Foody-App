@@ -55,11 +55,6 @@ h1{
   margin: 0 7px;
 }
 
-#meals :nth-child(even) {
-  /* margin-top: 50px; */
-  align-items: flex-end;
-}
-
 #meals a {
   text-decoration: none;
   color: inherit;
@@ -69,6 +64,7 @@ h1{
 .meal {
   width: 160px;
   height: auto;
+  min-height: 240px;
   background: rgba(214, 66, 77, 0.6);
   background: radial-gradient(rgba(214, 66, 77, 0.6), #D6424D);;
   border-radius: 20px;

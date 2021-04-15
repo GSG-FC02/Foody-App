@@ -1,5 +1,4 @@
 let areaName = document.getElementsByClassName("kitchenName").textContent;
-window.localStorage.setItem('an', areaName);
 let areaName2 = localStorage.getItem("an");
 let header = document.getElementById("header");
 
@@ -23,46 +22,24 @@ function viewMeals(){
     .then(data => {
 
         for (let index = 0; index < 4; index++) {
-            let meal = meals[index];
+            let a = document.createElement('a');
+            a.href = "./meal.html";
+            let div = document.createElement('div');
+            div.setAttribute('class','meal');
+            let img = document.createElement('img');
+            img.src = data.meals[index].strMealThumb;
+            let h3 = document.createElement('h3');
+            h3.textContent = data.meals[index].strMeal;
+            
 
-            let html = "";
-            html += `
-            <a href="./meal.html">
-                <div class = "meal">
-                <img src="${meal.strMealThumb}" alt="meal">
-                <h3>${meal.strMeal}</h3>
-                <h4>${meal.strCategory}</h4>        
-                </div>
-            </a>
-            `
-            meals2.innerHTML += html;
+            div.appendChild(img);
+            div.appendChild(h3);
 
+            a.appendChild(div);
+            meals2.appendChild(a);
             
         }
-
-        // meals.forEach(meal => {
-            
-        //     let html = "";
-        //     html += `
-        //     <a href="./meal.html">
-        //         <div class = "meal">
-        //         <img src="${meals.strMealThumb}" alt="">
-        //         <h3>${meals.strMeal}</h3>
-        //         <h4>${meals.strCategory}</h4>        
-        //         </div>
-        //     </a>
-        //     `
-        //     meals2.innerHTML += html;
         
-        // // mealImage.src = data.strMealThumb;
-        // // mealName.textContent = data.strMeal;
-        // // mealCategory.textContent = data.strCategory;
-
-
-
-        // });
-        
-
     })
     .catch(error => { console.log('Something went wrong', error);
     });
