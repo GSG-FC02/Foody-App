@@ -1,6 +1,47 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Cairo:400,700,600|Nunito:300");
-.x03-country-meals {
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 375px;
+  height: 812px;
+  margin: auto;
+  font-family: "Cairo", sans-serif;
+}
+.shape31{
+position: absolute;
+top: 0;
+left: 50px;
+width: 60%;
+}
+.shape32{
+  position: absolute;
+  top: 430px;
+  left: 0px;
+  width: 70%;
+  
+  }
+  #header{
+    margin: 50px 30px;
+    color: #D6424D;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    
+
+
+
+  }
+  h1{
+    color: #2f545c;
+    font-size: 24px;
+    
+  }
+
+/* .x03-country-meals {
   align-items: flex-start;
   background-color: white;
   display: flex;
@@ -342,8 +383,28 @@
   --mist-gray: rgba(196, 196, 196, 1);
   --spectra: rgba(47, 84, 92, 1);
 }
+ */
 
- @media only screen and (max-width: 768px)and (min-width: 400px)  {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* @media only screen and (max-width: 768px)and (min-width: 400px)  {
   .x03-country-meals {
     height: 1024px;
     width: 768px;
@@ -378,6 +439,23 @@
   margin-left: -97.83px;
 }
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1440px) and (min-width: 800px) {
 .x03-country-meals{
@@ -417,6 +495,6 @@
   width: 90px;
   left: 50px;
 }
-}
+} */
 
 
