@@ -38,6 +38,12 @@ function viewMeals(){
             a.appendChild(div);
             meals2.appendChild(a);
             
+
+            // function to store meal name in local storge
+            a.addEventListener('click', function(){
+                window.localStorage.setItem('storeValue', data.meals[index].strMeal);
+            });
+
         }
         
     })
