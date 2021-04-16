@@ -45,7 +45,7 @@ body {
   justify-content: center;
 }
 .picture > .meal_img {
-  width: 100%;
+  width: 80%;
   height: auto;
   margin-bottom: 50px;
 }
@@ -75,7 +75,7 @@ body {
 
 .meal_ingredients > p,
 .meal_measure > p,
-.recipe > p {
+.recipe > h3{
   color: #2f545c;
   font-size: 24px;
   font-weight: bold;
@@ -84,10 +84,10 @@ body {
 .meal_ingredients ol {
   margin-left: 25px;
 }
-.meal_measure ul {
+/* .meal_measure ul {
   list-style-type: none;
   margin-left: 25px;
-}
+} */
 .recipe_steps {
   display: flex;
   flex-direction: row;
@@ -99,11 +99,14 @@ body {
   margin-bottom: 20%;
 }
 .recipe > p {
+  margin: 0 5% 10% 10%;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.recipe>h3{
   margin: 0 0 10% 10%;
 }
-.recipe ol {
-  margin: 0 10px 0 30px;
-}
+
 .img5 {
   display: flex;
   flex-direction: column;
