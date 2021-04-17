@@ -81,6 +81,13 @@ input {
   font-family: "Cairo", sans-serif;
 }
 
+.btn {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
 .searchBox a {
   border: none;
   outline: none;
