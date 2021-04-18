@@ -50,7 +50,7 @@
 # How Installation App To Run It Locally ?
  * git clone https://github.com/GSG-FC02/Foody-App.git
  * cd Foody-app/
- * go live server
+ * go <a href ="https://gsg-fc02.github.io/Foody-App/">Live server</a>
 
 # Tech Stack
 The technolegies are used to create our app:
